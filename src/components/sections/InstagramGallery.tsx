@@ -6,11 +6,11 @@ import { TinyFlower, StarDoodle, DotPattern } from '../doodles/Doodles';
 
 // All 5 images in a masonry layout
 const galleryItems = [
-  { image: '/images/bouquet-sunflower.png', alt: 'Handmade sunflower bouquet', size: 'tall' },
-  { image: '/images/rakhi-sunshine.png', alt: 'Sunshine rakhi and sunflower', size: 'normal' },
-  { image: '/images/keychain-evileye.png', alt: 'Evil eye crochet keychain', size: 'normal' },
-  { image: '/images/bouquet-mixed.png', alt: 'Mixed bloom bouquet', size: 'tall' },
-  { image: '/images/flowerpots.png', alt: 'Colourful flower pots', size: 'normal' },
+  { image: `${import.meta.env.BASE_URL}images/bouquet-sunflower.png`, alt: 'Handmade sunflower bouquet', size: 'tall' },
+  { image: `${import.meta.env.BASE_URL}images/rakhi-sunshine.png`, alt: 'Sunshine rakhi and sunflower', size: 'normal' },
+  { image: `${import.meta.env.BASE_URL}images/keychain-evileye.png`, alt: 'Evil eye crochet keychain', size: 'normal' },
+  { image: `${import.meta.env.BASE_URL}images/bouquet-mixed.png`, alt: 'Mixed bloom bouquet', size: 'tall' },
+  { image: `${import.meta.env.BASE_URL}images/flowerpots.png`, alt: 'Colourful flower pots', size: 'normal' },
 ];
 
 export function InstagramGallery() {
