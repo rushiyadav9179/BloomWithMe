@@ -193,7 +193,7 @@ export function Hero() {
 
               {/* Hero handmade bouquet */}
               <motion.img
-                src={`${import.meta.env.BASE_URL}images/hero-bouquet.png.png`}
+                src={`${import.meta.env.BASE_URL}images/hero-bouquet.png`}
                 alt="Handmade crochet sunflower bouquet"
                 className="absolute inset-0 z-10 w-full h-full object-contain p-8"
                 initial={{ opacity: 0, scale: 0.85, y: 20 }}
