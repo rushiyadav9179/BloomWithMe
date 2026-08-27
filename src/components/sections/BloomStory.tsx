@@ -60,7 +60,7 @@ export function BloomStory() {
       ref={ref}
       className="
         relative
-        py-24 lg:py-32
+        py-16 lg:py-20
         overflow-hidden
         bg-[#fdf8f0]
       "
